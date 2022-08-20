@@ -1,0 +1,88 @@
+<div class="card mat-card">
+    <div id="experiencie">
+        <div class="card-titles">
+            <h2>Experiencia</h2>           
+            <div class="btn-edit">
+                <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+        
+        <div>
+            <ul class="items-list">
+                <li>
+                    <div class="data-container">
+                        <a href="#">
+                            <div class="logo-image-container"> 
+
+                                <img class="logo-image" src="http://">                            
+
+                                <div class="list-info">
+                                            <div>
+                                                <h3>UTN</h3>
+                                                <p>Ingenieria, sistemas de computacion</p>
+                                                <p><time>2019</time></p> - <time>2040</time>
+                                            </div>
+                                </div>
+                            </div>    
+                        </a>
+                    </div>
+                    <div class="data-control">
+                        <div class="btn-edit">
+                            <a href="#" class="btn-right"><i class="fa-icon"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>    
+
+
+
+
+    <div id="education">
+        <div class="card-titles">
+            <h2>Educaction</h2>
+            <div class="btn-edit">
+                <a href="#" class="btn-right"><i class="fa fa-icon"></i></a>
+            </div>
+        </div>
+        
+        <div>
+            <ul class="items-list">
+
+                <li *ngFor="let educacion of educacionList">
+                    <div class="data-container">
+                        <a href="#">
+                            <div class="logo-image-container"> 
+
+                            <img
+                            class="logo-image"
+                            [src]="educacion.img"
+                            />
+
+                            </div> 
+
+                            <div class="list-info">
+                                <div>
+                                    <h3>{{educacion.school}}</h3>                                    
+                                    <p>{{educacion.carrera}}</p>
+                                    <h4>mar 2019 - actualidad - 2 años y 6 meses</h4>
+                                    <p><time>{{educacion.start}}</time></p> - <time>{{educacion.end}}</time>
+                                </div>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <div class="data-control">
+                        <div class="btn-edit">
+                            <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>    
+
+</div>

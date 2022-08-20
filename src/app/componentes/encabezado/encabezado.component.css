@@ -1,0 +1,37 @@
+#Gimnasios-Contenedor {
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  #map {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 50;
+    background-color: cyan;
+  }
+  
+  #ModalContacto {
+    height: 300px;
+    width: 60%;
+    background-color: orangered;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    z-index: 100;
+    background: whitesmoke;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .tama {
+    width: 1200px;
+    height: 200px;    
+  }

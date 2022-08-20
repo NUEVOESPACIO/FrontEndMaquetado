@@ -1,0 +1,46 @@
+{
+    
+    "name": "Sebastian Caparros",
+    "backImage": "https://png.pngtree.com/background/20210710/original/pngtree-business-intelligence-technology-background-picture-image_982645.jpg",
+    "profileImage": "./assets/img/perfil.jpg",
+    "position": "Ingeniero Aeronautico",
+    "company": {"name": "Aerolineas Argentinas", "img": "jkjdkf.jpg", "url":"lkdfjsldkj"},
+    "school": {"name":"Universidad Nacional de La Plata", "img": "lkjlkasdj.jpg", "url": "lksjlakds.jpg"},
+    "ubication": "Ezeiza, Argentina",
+    "about": "Soy Ingeniero Aeronautico, con gran interés en programación. Actualmente en capacitación como desarrollador FullStack.",
+    "experiencia": [{
+        "position": "BackEndDevloper",
+        "company":"Pixar",
+        "mode": "parcial Jornada"
+    }],
+    "education" :[{
+        "school": "utn",
+        "title":"Ingenieria",
+        "img":"https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
+        "start": "2013",
+        "end":"2020",
+        "carrera":"Sistemas computacionales"},
+        {
+            "school": "San Jose de La plata",
+        "title":"Animador",
+        "img":"https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
+        "start": "2013",
+        "end":"2020",
+        "carrera":"Sistemas computacionales"},
+        {
+        "school": "San Jose de La plata",
+        "title":"Profe ssalsa",
+        "img":"https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
+        "start": "2013",
+        "end":"2020",
+        "carrera":"Sistemas computacionales"},
+        {
+        "school": "San Jose de La plata",
+        "title":"Informatica",
+        "img":"https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
+        "start": "2013",
+        "end":"2020",
+        "carrera":"Sistemas computacionales"}  ]
+        }
+
+ 

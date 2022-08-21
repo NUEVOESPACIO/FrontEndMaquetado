@@ -9,48 +9,49 @@
     <!--<a routerLink="/juegomale" routerLinkActive="active">COMENZAR JUEGO</a>-->
     <!--<router-outlet></router-outlet>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
-<div class="card mat-card" id="first-card">
-    <div id="prolife-background">
-        <img [src]="miPorfolio.backImage" class="rounded mx-auto d-block" width="1200px" height="300px">
-        <img class="profile-image rounded" style="z-index: 4; position: relative;" [src]="miPorfolio.profileImage" width="150px" height="150px">
-    </div>
-</div>
-
-<div id="info" style="padding: 16px 36py">
-    <div id="info-img">
-        <img class="profile-image" [src]="miPorfolio.profileImage" width="150px" height="150px">
-
-        <div class="btn-edit">
-            <a href="#" class="btn-right"><i class=""></i></a>
-
+<div class="container py-2">
+    <div class="card mat-card" id="first-card">
+        <div id="prolife-background">
+            <img [src]="miPorfolio.backImage" class="rounded mx-auto d-block" width="1200px" height="300px">        
         </div>
     </div>
 
-    <div id="info-data">
+    <div id="info" style="padding: 16px 36py">
+        <div id="info-img">
+            <img class="profile-image" [src]="miPorfolio.profileImage" width="150px" height="150px">
+
+            <div class="btn-edit">
+                <a href="#" class="btn-right"><i class=""></i></a>
+
+            </div>
+        </div>
+
+        <div id="info-data">
+            <div>
+                <h1>{{miPorfolio.name}}</h1>
+                <div id="info-company">{{miPorfolio.position}}</div>
+                <div id="info-contact"></div>
+                <span><a href="#">{{miPorfolio.ubication}}</a></span>
+            
+            </div>
+        </div>
+
         <div>
-            <h1>{{miPorfolio.name}}</h1>
-            <div id="info-company">{{miPorfolio.position}}</div>
-            <div id="info-contact"></div>
-            <span><a href="#">{{miPorfolio.ubication}}</a></span>
-           
+            <h2>Universidad Nacional de La Plata</h2>
         </div>
-    </div>
 
-    <div>
-        <h2>Universidad Nacional de La Plata</h2>
-    </div>
+        <div id="info-actions">
+            <button type="button">
+                Tengo interes en Ingenieria
+            </button>
 
-    <div id="info-actions">
-        <button type="button">
-            Tengo interes en Ingenieria
-        </button>
+            <button type="button" class="btn btn-light">Tengo interes en informatica</button>
+            <button type="button" class="btn btn-light">Tengo interes en Fisica</button>
 
-        <button type="button" class="btn btn-light">Tengo interes en informatica</button>
-        <button type="button" class="btn btn-light">Tengo interes en Fisica</button>
+        </div>
 
     </div>
-
 </div>
+
 
 </body>

@@ -14,33 +14,41 @@
         "mode": "parcial Jornada"
     }],
     "education" :[{
-        "school": "utn",
-        "title":"Ingenieria",
-        "img":"https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
+        "school": "Base Ezeiza",
+        "title":"Trabajo Actual",
+        "img":"./assets/img/AR_horiz.svg",
+        "start": "2004",
+        "end":"2022",
+        "carrera":"Planificacion en sistemas de mantenimiento"},
+        {
+            "school": "Tekoa S.A.",
+        "title":"Animador",
+        "img":"./assets/img/logo-fdf7b369.jpeg",
         "start": "2013",
         "end":"2020",
-        "carrera":"Sistemas computacionales"},
+        "carrera":"Calibracion y control de instrumentacion"},
+        {
+        "school": "Facultad de Informatica",
+        "title":"Informatica",
+        
+        "img":"./assets/img/DSC0802-746x340.jpg",
+        "start": "2013",
+        "end":"2020",
+        "carrera":"Analista en computacion (no concluido)"},
+        {
+        "school": "Univesidad Nacional De La Plata",
+        "title":"Ingenieria",
+        "img":"./assets/img/Logo-UNLP.png",
+        "start": "2013",
+        "end":"2020",
+        "carrera":"Ingenieria Aeronautica (concluido)"},
         {
             "school": "San Jose de La plata",
-        "title":"Animador",
-        "img":"https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
-        "start": "2013",
-        "end":"2020",
-        "carrera":"Sistemas computacionales"},
-        {
-        "school": "San Jose de La plata",
-        "title":"Profe ssalsa",
-        "img":"https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
-        "start": "2013",
-        "end":"2020",
-        "carrera":"Sistemas computacionales"},
-        {
-        "school": "San Jose de La plata",
-        "title":"Informatica",
-        "img":"https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
-        "start": "2013",
-        "end":"2020",
-        "carrera":"Sistemas computacionales"}  ]
+            "title":"Estudios Secundarios",
+            "img":"./assets/img/sanjos.jpg",
+            "start": "2013",
+            "end":"2020",
+            "carrera":"Bachillerato"}   ]
         }
 
  

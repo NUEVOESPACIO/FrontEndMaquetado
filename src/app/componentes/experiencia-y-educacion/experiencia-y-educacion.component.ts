@@ -8,6 +8,7 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
 })
 export class ExperienciaYEducacionComponent implements OnInit {
   educacionList:any;
+  experienciaList:any;
 
   constructor(private datosPorfolio: PorfolioService ) { }
 
@@ -15,6 +16,7 @@ export class ExperienciaYEducacionComponent implements OnInit {
     this.datosPorfolio.obtenerDatos().subscribe(data =>{
       console.log(data);
       this.educacionList=data.education;
+      this.experienciaList=data.experiencia;
 
 
     });
